@@ -2,8 +2,11 @@
 public class Second {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
- System.out.println("Hello world -feature branch Ventatesh changed this file");
+		newMessage();
+		System.out.println("Hello world -feature branch Ventatesh changed this file");
 	}
 
+	public static void newMessage() {
+		System.out.println("Hello world -second branch");
+	}
 }
